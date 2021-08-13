@@ -3,7 +3,7 @@
 ![Infografica di regressione lineare e logistica](../images/logistic-linear.png)
 > Infografica di [Dasani Madipalli](https://twitter.com/dasani_decoded)
 
-## [Quiz Pre-Lezione](https://jolly-sea-0a877260f.azurestaticapps.net/quiz/15/)
+## [Quiz Pre-Lezione](https://white-water-09ec41f0f.azurestaticapps.net/quiz/15/)
 
 ## Introduzione
 
@@ -228,19 +228,15 @@ Cosa sta succedendo qui? Si supponga che al modello venga chiesto di classificar
 - Se il modello prevede qualcosa come una zucca e appartiene alla categoria 'non-una-zucca' in realtà si chiama falso negativo, mostrato dal numero in basso a sinistra.
 - Se il modello prevede qualcosa come non una zucca e appartiene alla categoria 'non-una-zucca' in realtà lo si chiama un vero negativo, mostrato dal numero in basso a destra.
 
-![Matrice di Confusione](../images/confusion-matrix.png)
-
-> Infografica di [Jen Looper](https://twitter.com/jenlooper)
-
 Come si sarà intuito, è preferibile avere un numero maggiore di veri positivi e veri negativi e un numero inferiore di falsi positivi e falsi negativi, il che implica che il modello funziona meglio.
 
 ✅ Domanda: Secondo la matrice di confusione, come si è comportato il modello? Risposta: Non male; ci sono un buon numero di veri positivi ma anche diversi falsi negativi.
 
 I termini visti in precedenza vengono rivisitati con l'aiuto della mappatura della matrice di confusione di TP/TN e FP/FN:
 
-🎓 Precisione: TP/(TP + FN) La frazione di istanze rilevanti tra le istanze recuperate (ad es. quali etichette erano ben etichettate)
+🎓 Precisione: TP/(TP + FP) La frazione di istanze rilevanti tra le istanze recuperate (ad es. quali etichette erano ben etichettate)
 
-🎓 Richiamo: TP/(TP + FP) La frazione di istanze rilevanti che sono state recuperate, ben etichettate o meno
+🎓 Richiamo: TP/(TP + FN) La frazione di istanze rilevanti che sono state recuperate, ben etichettate o meno
 
 🎓 f1-score: (2 * precisione * richiamo)/(precisione + richiamo) Una media ponderata della precisione e del richiamo, dove il migliore è 1 e il peggiore è 0
 
@@ -288,7 +284,7 @@ Nelle lezioni future sulle classificazioni si imparerà come eseguire l'iterazio
 
 C'è molto altro da svelare riguardo alla regressione logistica! Ma il modo migliore per imparare è sperimentare. Trovare un insieme di dati che si presti a questo tipo di analisi e costruire un modello con esso. Cosa si è appreso? suggerimento: provare [Kaggle](https://kaggle.com) per ottenere insiemi di dati interessanti.
 
-## [Quiz post-lezione](https://jolly-sea-0a877260f.azurestaticapps.net/quiz/16/)
+## [Quiz post-lezione](https://white-water-09ec41f0f.azurestaticapps.net/quiz/16/)
 
 ## Revisione e Auto Apprendimento
 

@@ -19,7 +19,7 @@ Hatırlayın:
 
 Sınıflandırma, bir veri noktasının etiketini veya sınıfını belirlemek için farklı yollar belirlemek üzere çeşitli algoritmalar kullanır. Bir grup malzemeyi gözlemleyerek kökeninin hangi mutfak olduğunu belirleyip belirleyemeyeceğimizi görmek için bu mutfak verisiyle çalışalım.
 
-## [Ders öncesi kısa sınavı](https://jolly-sea-0a877260f.azurestaticapps.net/quiz/19/?loc=tr)
+## [Ders öncesi kısa sınavı](https://white-water-09ec41f0f.azurestaticapps.net/quiz/19/?loc=tr)
 
 ### Giriş
 
@@ -157,7 +157,7 @@ Kurmanız gereken ilk şey [imblearn](https://imbalanced-learn.org/stable/). Bu,
 
 Şimdi veriyi daha derinlemesine inceleyebilirsiniz ve her mutfak için tipik malzemelerin neler olduğunu öğrenebilirsiniz. Mutfaklar arasında karışıklık yaratan tekrar eden veriyi temizlemelisiniz, dolayısıyla şimdi bu problemle ilgili bilgi edinelim.
 
-1. Python'da, malzeme veri iskeleti yaratmak için `create_ingredient()` diye bir fonksiyon oluşturun. Bu fonksiyon, yardımcı olmayan bir sütunu temizleyerek ve sayılarına göre malzemeleri sıralayarak başlar:
+1. Python'da, malzeme veri iskeleti yaratmak için `create_ingredient_df()` diye bir fonksiyon oluşturun. Bu fonksiyon, yardımcı olmayan bir sütunu temizleyerek ve sayılarına göre malzemeleri sıralayarak başlar:
 
     ```python
     def create_ingredient_df(df):
@@ -170,7 +170,7 @@ Kurmanız gereken ilk şey [imblearn](https://imbalanced-learn.org/stable/). Bu,
 
    Şimdi bu fonksiyonu, her mutfağın en yaygın ilk on malzemesi hakkında hakkında fikir edinmek için kullanabilirsiniz.
 
-1. `create_ingredient()` fonksiyonunu çağırın ve `barh()` fonksiyonunu çağırarak çizdirin:
+1. `create_ingredient_df()` fonksiyonunu çağırın ve `barh()` fonksiyonunu çağırarak çizdirin:
 
     ```python
     thai_ingredient_df = create_ingredient_df(thai_df)
@@ -287,7 +287,7 @@ Veriyi temizlediniz, şimdi [SMOTE](https://imbalanced-learn.org/dev/references/
 
 Bu öğretim programı farklı ilgi çekici veri setleri içermekte. `data` klasörlerini inceleyin ve ikili veya çok sınıflı sınıflandırma için uygun olabilecek veri setleri bulunduran var mı, bakın. Bu veri seti için hangi soruları sorabilirdiniz?
 
-## [Ders sonrası kısa sınavı](https://jolly-sea-0a877260f.azurestaticapps.net/quiz/20/?loc=tr)
+## [Ders sonrası kısa sınavı](https://white-water-09ec41f0f.azurestaticapps.net/quiz/20/?loc=tr)
 
 ## Gözden Geçirme & Kendi Kendine Çalışma
 

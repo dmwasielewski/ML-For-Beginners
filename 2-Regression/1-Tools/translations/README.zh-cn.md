@@ -4,7 +4,7 @@
 
 > 作者[Tomomi Imura](https://www.twitter.com/girlie_mac)
 
-## [课前测](https://jolly-sea-0a877260f.azurestaticapps.net/quiz/9/)
+## [课前测](https://white-water-09ec41f0f.azurestaticapps.net/quiz/9/)
 ## 介绍
 
 在这四节课中，你将了解如何构建回归模型。我们将很快讨论这些是什么。但在你做任何事情之前，请确保你有合适的工具来开始这个过程！
@@ -30,7 +30,7 @@
 
    > 通过学习这一系列的 [学习模块](https://docs.microsoft.com/users/jenlooper-2911/collections/mp1pagggd5qrq7?WT.mc_id=academic-15963-cxa)熟悉Python
 
-3. **按照[这些说明]安装Scikit learn**(https://scikit-learn.org/stable/install.html)。由于你需要确保使用Python3，因此建议你使用虚拟环境。注意，如果你是在M1 Mac上安装这个库，在上面链接的页面上有特别的说明。
+3. **按照[这些说明]安装Scikit learn**(https://scikit-learn.org/stable/install.html )。由于你需要确保使用Python3，因此建议你使用虚拟环境。注意，如果你是在M1 Mac上安装这个库，在上面链接的页面上有特别的说明。
 
 4. **安装Jupyter Notebook**。你需要[安装Jupyter包](https://pypi.org/project/jupyter/)。
 
@@ -192,7 +192,7 @@ s1 tc：T细胞（一种白细胞）
 ## 🚀挑战
 
 从这个数据集中绘制一个不同的变量。提示：编辑这一行：`X = X[:, np.newaxis, 2]`。鉴于此数据集的目标，你能够发现糖尿病作为一种疾病的进展情况吗？
-## [课后测](https://jolly-sea-0a877260f.azurestaticapps.net/quiz/10/)
+## [课后测](https://white-water-09ec41f0f.azurestaticapps.net/quiz/10/)
 
 ## 复习与自学 
 
